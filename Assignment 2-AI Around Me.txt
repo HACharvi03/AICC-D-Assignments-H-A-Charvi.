@@ -1,0 +1,39 @@
+1 Google Search:
+
+Uses ranking algorithms trained on billions of searches to predict which pages are most relevant based on keywords, user behavior, and context.
+
+2 YouTube Recommendations:
+
+Uses collaborative filtering and deep learning to suggest videos based on your watch history and similar users’ behavior.
+
+3 Instagram Feed & Reels:
+
+ML models rank posts by predicting what you’re most likely to engage with using past likes, shares, and watch time.
+
+4 Amazon Product Suggestions:
+
+Recommendation systems analyze browsing history, purchases, and similar customers to predict what you might buy next.
+
+5 Google Maps Traffic Prediction:
+
+Uses historical traffic data + real-time GPS data to predict congestion and estimate arrival times using regression models.
+
+6 Netflix Movie Recommendations:
+
+Uses matrix factorization and deep learning to match user preferences with content features.
+
+7 Gmail Spam Detection:
+
+Uses classification algorithms trained on millions of emails to predict whether a message is spam or legitimate.
+
+8 Spotify Music Recommendations:
+
+Uses audio feature analysis + collaborative filtering to predict songs you will like.
+
+9 Google Assistant / Amazon Alexa:
+
+Uses speech recognition (deep neural networks) to convert voice to text and NLP models to understand intent.
+
+10 PhonePe / Google Pay Fraud Detection:
+
+Uses anomaly detection models to identify unusual transaction patterns and prevent fraud in real time.

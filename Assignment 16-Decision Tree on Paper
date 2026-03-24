@@ -1,0 +1,49 @@
+Decision Tree (Play Outside)     
+
+
+
+                 Weather
+               /   |    \
+            Sunny Overcast Rain
+             /        |       \
+        Humidity     Play     Wind
+         /    \               /   \
+      High   Normal       Strong  Weak
+       |        |           |       |
+      No       Yes         No      Yes
+
+
+
+
+Explanation of Conditions
+1 Weather
+Sunny
+Overcast
+Rain
+
+2 If Weather = Sunny
+Check Humidity
+High → ❌ Don’t Play
+Normal → ✅ Play
+
+3 If Weather = Overcast
+Always → ✅ Play
+
+4 If Weather = Rain
+Check Wind
+Strong → ❌ Don’t Play
+Weak → ✅ Play
+
+Input → Output
+Weather	      Humidity  Wind	Output
+Sunny	       High	Weak	No
+Sunny	       Normal	Weak	Yes
+Rain	       High	Strong	No
+Overcast       High	Weak	Yes
+
+Conclusion
+
+1 Decision Trees split data based on conditions
+2 Easy to understand and visualize
+3 Used for classification problems
+4 Mimics human decision-making

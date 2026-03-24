@@ -1,0 +1,71 @@
+1 College Domain:
+Problem 1: Student Performance Prediction
+Goal: Predict final exam marks.
+
+Input → Attendance %, study hours, internal marks, assignment scores
+Output → Predicted final marks (regression)
+
+Problem 2: Placement Eligibility Predictor
+
+Goal: Predict whether a student will get placed.
+
+Input → CGPA, coding score, aptitude score, communication rating
+Output → Placed / Not Placed (classification)
+
+Problem 3: Dropout Risk Detection
+
+Goal: Identify students at risk of dropping out.
+
+Input → Attendance, backlogs, fee payment status, engagement level
+Output → Risk Level (Low / Medium / High)
+
+2.Healthcare Domain:
+Problem 4: Disease Prediction System
+
+Goal: Predict disease based on symptoms.
+
+Input → Fever, cough, blood pressure, sugar level, age
+Output → Predicted disease (classification)
+
+Problem 5: Diabetes Prediction
+
+Goal: Detect early-stage diabetes.
+
+Input → Glucose level, BMI, age, insulin level
+Output → Diabetic / Non-Diabetic
+
+Problem 6: Hospital Readmission Prediction
+
+Goal: Predict whether a patient will be readmitted.
+
+Input → Diagnosis history, treatment type, age, recovery rate
+Output → Readmission probability
+
+3 Shopping Domain:
+Problem 7: Product Recommendation System
+
+Goal: Suggest products to customers.
+
+Input → Purchase history, browsing history, ratings
+Output → Recommended product list
+
+Problem 8: Price Prediction Model
+
+Goal: Predict product price.
+
+Input → Brand, category, features, demand
+Output → Predicted price (regression)
+
+Problem 9: Customer Churn Prediction
+
+Goal: Predict if a customer will stop using service.
+
+Input → Purchase frequency, complaints, last activity date
+Output → Churn / Not Churn
+
+Problem 10: Sales Forecasting
+
+Goal: Predict future sales.
+
+Input → Past sales data, season, promotions
+Output → Predicted future sales

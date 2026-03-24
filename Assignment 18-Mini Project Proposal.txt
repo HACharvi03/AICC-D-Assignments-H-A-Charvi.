@@ -1,0 +1,32 @@
+# Mini Project Proposal
+
+
+Problem Statement
+In many colleges, it is difficult to identify students who may perform poorly in exams at an early stage. This leads to a lack of timely support and guidance. The goal of this project is to build a Machine Learning model that predicts student performance based on academic and behavioral factors, helping teachers take preventive actions.
+
+Dataset
+The dataset will consist of student-related attributes such as:
+
+* Study hours
+* Attendance percentage
+* Internal assessment marks
+* Assignment completion status
+* Participation level
+
+The dataset can be manually created or collected from publicly available sources (e.g., Kaggle datasets on student performance).
+
+
+ Algorithm
+The project will use **Linear Regression** for predicting marks and **Classification algorithms** like Logistic Regression or Decision Tree for categorizing students (Pass/Fail or Grades).
+These algorithms are chosen because they are simple, interpretable, and suitable for beginner-level ML projects.
+
+
+Expected Output
+* Predicted final exam marks of students
+* Classification into categories (e.g., Pass/Fail or Grade A/B/C)
+* Identification of students at risk of low performance
+
+
+ Conclusion
+
+This project helps in early identification of weak students and supports better academic planning. It demonstrates how Machine Learning can be applied in the education domain to improve outcomes and decision-making.

@@ -1,0 +1,85 @@
+1 Messy Sentences Dataset
+
+| No | Sentence                      
+| -- | ----------------------------- 
+| 1  | Heyyy brooo, wassup?? 😎      
+| 2  | I luv this movie sooo much ❤️ 
+| 3  | Plz send me the notes ASAP!!! 
+| 4  | LOL that was sooo funny 😂😂  
+| 5  | Gud mrng frnds 😊             
+| 6  | This is amazng!!!             
+| 7  | Can't w8 for the party 🎉     
+| 8  | OMG!!! this is gr8 😍         
+| 9  | I'm sooo tiredd 😴            
+| 10 | Hpy bday!!! 🎂🎉              
+| 11 | Wat r u doing??               
+| 12 | Thx a lottt 🙏                
+| 13 | I dont knw this ans           
+| 14 | Plzz reply fasttt             
+| 15 | That was lit 🔥               
+| 16 | This food is yummyyy 😋       
+| 17 | Im goin 2 clg                 
+| 18 | Soo boreddd rn 😒             
+| 19 | Congratz!!! 🎊                
+| 20 | Btw, meet me @ 5pm            
+
+
+2 Issues Identified
+ Slang Words
+brooo → bro
+luv → love
+plz → please
+gr8 → great
+w8 → wait
+btw → by the way
+
+Emojis
+😎 😂 ❤️ 🎉 😍 😴 😋 😒 🎊
+These convey emotion/sentiment
+Typos / Informal Text
+Gud → Good
+mrng → morning
+amazng → amazing
+knw → know
+hpy → happy
+goin → going
+
+3 Preprocessing Steps Needed
+ 1 Lowercasing
+
+ Convert all text to lowercase
+ “Hello” → “hello”
+
+ 2 Remove Special Characters
+
+ Remove symbols like !!!, @, ?
+ “Hello!!!” → “hello”
+
+ 3 Handle Emojis
+ Remove OR Convert to meaning (😊 → happy)
+
+ 4 Expand Slang / Short Forms
+ “plz” → “please”
+ “gr8” → “great”
+
+ 5 Correct Typos
+ Use spell correction
+ “amazng” → “amazing”
+
+ 6 Remove Extra Letters
+  “soooo” → “so”
+
+ 7 Tokenization
+ Split sentence into words
+ “I love AI” → [I, love, AI]
+
+ 8 Stopword Removal (Optional)
+ Remove words like “is”, “the”, “a”
+ Example (Before → After)
+
+ Before:
+ "I luv this movie sooo much ❤️"
+
+ After Cleaning:
+ "i love this movie so much"
+
